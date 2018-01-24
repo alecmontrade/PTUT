@@ -101,11 +101,6 @@
           "type": "script"
         },
         {
-          "id": "59",
-          "name": "Script",
-          "type": "script"
-        },
-        {
           "id": "64",
           "name": "TelephoneBehavior",
           "type": "script"

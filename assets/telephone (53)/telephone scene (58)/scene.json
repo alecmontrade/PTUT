@@ -99,8 +99,8 @@
         }
       ],
       "position": {
-        "x": 9.584352493286133,
-        "y": 18.706083297729492,
+        "x": 11.901089668273926,
+        "y": 9.310426712036133,
         "z": 0
       },
       "orientation": {
@@ -110,8 +110,8 @@
         "w": 1
       },
       "scale": {
-        "x": 0.2,
-        "y": 0.2,
+        "x": 0.6,
+        "y": 0.6,
         "z": 0.2
       },
       "visible": true,
@@ -119,30 +119,97 @@
       "prefab": null
     },
     {
-      "id": "2",
-      "name": "numero1",
-      "children": [],
-      "components": [
+      "id": "19",
+      "name": "Questions",
+      "children": [
         {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "0",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": true,
-            "opacity": null
+          "id": "13",
+          "name": "Question1",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "question1",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 32,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.4041748046875,
+            "y": 3.4772236347198486,
+            "z": -43.74494934082031
           },
-          "id": "0"
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "14",
+          "name": "Question2",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "question2",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.4016120433807373,
+            "y": 3.4935719966888428,
+            "z": -43.74494934082031
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
         }
       ],
+      "components": [],
       "position": {
-        "x": 10.74103832244873,
-        "y": 25.328166961669922,
-        "z": 3.885629415512085
+        "x": 8.219450950622559,
+        "y": 21.799772262573242,
+        "z": 50.92964172363281
       },
       "orientation": {
         "x": 0,
@@ -151,462 +218,11 @@
         "w": 1
       },
       "scale": {
-        "x": 0.3,
-        "y": 0.3,
-        "z": 0.3
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "3",
-      "name": "numero2",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "6",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 11.049320220947266,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.30000001192092896,
-        "y": 0.30000001192092896,
-        "z": 0.30000001192092896
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "5",
-      "name": "numero3",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "4",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 11.399582862854004,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.30000001192092896,
-        "y": 0.30000001192092896,
-        "z": 0.30000001192092896
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "4",
-      "name": "numero4",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "8",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 97,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 11.674619674682617,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.3,
-        "y": 0.3,
-        "z": 0.3
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "6",
-      "name": "numero5",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "6",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 12.051015853881836,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.3,
-        "y": 0.3,
-        "z": 0.3
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "7",
-      "name": "numero6",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "5",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 12.345017433166504,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.3,
-        "y": 0.3,
-        "z": 0.3
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "8",
-      "name": "numero7",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "7",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 12.664412498474121,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.3,
-        "y": 0.3,
-        "z": 0.3
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "9",
-      "name": "numero8",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "6",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "1"
-        }
-      ],
-      "position": {
-        "x": 12.945769309997559,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.3,
-        "y": 0.3,
-        "z": 0.3
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "10",
-      "name": "numero9",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "2",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 13.33120346069336,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.3,
-        "y": 0.3,
+        "x": 3,
+        "y": 3,
         "z": 1
       },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "11",
-      "name": "numero10",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "0",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 100,
-            "color": "000000",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 13.6000337600708,
-        "y": 25.327999114990234,
-        "z": 7.184999942779541
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 0.3,
-        "y": 0.3,
-        "z": 0.3
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "13",
-      "name": "Question1",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "question1",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 32,
-            "color": "ffffff",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 12.266226768493652,
-        "y": 17.97700309753418,
-        "z": 7.184694290161133
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": false,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "14",
-      "name": "Question2",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "42",
-            "text": "question2",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": null,
-            "color": "ffffff",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 12.28756046295166,
-        "y": 17.934316635131836,
-        "z": 7.184694290161133
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": false,
+      "visible": true,
       "layer": 0,
       "prefab": null
     },
@@ -632,8 +248,8 @@
         }
       ],
       "position": {
-        "x": 12.119563102722168,
-        "y": 16.15749740600586,
+        "x": -2.00628662109375,
+        "y": 23.361690521240234,
         "z": 7.184694290161133
       },
       "orientation": {
@@ -643,8 +259,8 @@
         "w": 1
       },
       "scale": {
-        "x": 1,
-        "y": 1,
+        "x": 3,
+        "y": 3,
         "z": 1
       },
       "visible": false,
@@ -677,8 +293,8 @@
             }
           ],
           "position": {
-            "x": 0.04266643524169922,
-            "y": 0,
+            "x": 0.4653358524719948,
+            "y": 0.0000031409347229782725,
             "z": 0
           },
           "orientation": {
@@ -723,8 +339,8 @@
         }
       ],
       "position": {
-        "x": 12.159563064575195,
-        "y": 17.101930618286133,
+        "x": -2.7392067909240723,
+        "y": 28.176834106445312,
         "z": 7.184694290161133
       },
       "orientation": {
@@ -734,8 +350,444 @@
         "w": 1
       },
       "scale": {
-        "x": 1,
-        "y": 1,
+        "x": 3,
+        "y": 3,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "20",
+      "name": "Numero",
+      "children": [
+        {
+          "id": "3",
+          "name": "numero2",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "6",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.9387331008911133,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "2",
+          "name": "numero1",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "0",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": true,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.32216930389404297,
+            "y": 0.5821018218994141,
+            "z": -43.80685806274414
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "5",
+          "name": "numero3",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "4",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 1.6392583847045898,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "4",
+          "name": "numero4",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "8",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 97,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.1893320083618164,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "6",
+          "name": "numero5",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "6",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.942124366760254,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "7",
+          "name": "numero6",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "5",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 3.53012752532959,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "8",
+          "name": "numero7",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "7",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 4.168917655944824,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "10",
+          "name": "numero9",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "2",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 5.502501487731934,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "9",
+          "name": "numero8",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "6",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 4.731631278991699,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "11",
+          "name": "numero10",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "0",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 100,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 6.040160179138184,
+            "y": 0.5817661285400391,
+            "z": -43.74464416503906
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.30000001192092896
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 13.88430118560791,
+        "y": 25.79485511779785,
+        "z": 50.92964553833008
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
         "z": 1
       },
       "visible": true,
