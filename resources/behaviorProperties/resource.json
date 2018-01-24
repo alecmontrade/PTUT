@@ -1,0 +1,104 @@
+{
+  "behaviors": {
+    "RandomMoveBehavior": {
+      "scriptId": "9",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "CameraBehavior": {
+      "scriptId": "40",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "UIButtonManagerBehavior": {
+      "scriptId": "44",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "buttonIndex",
+          "type": "number"
+        }
+      ]
+    },
+    "UIMainMenuBehavior": {
+      "scriptId": "45",
+      "line": 0,
+      "parentBehavior": "UIButtonManagerBehavior",
+      "properties": []
+    },
+    "ScriptBehavior": {
+      "scriptId": "59",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DescriptionScriptBehavior": {
+      "scriptId": "61",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "IUTBehavior": {
+      "scriptId": "8",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "BanqueBehavior": {
+      "scriptId": "62",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "UIQCMBehavior": {
+      "scriptId": "63",
+      "line": 0,
+      "parentBehavior": "UIButtonManagerBehavior",
+      "properties": []
+    },
+    "TelephoneBehavior": {
+      "scriptId": "64",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "idNum",
+          "type": "number"
+        }
+      ]
+    },
+    "TextFieldBehavior": {
+      "scriptId": "65",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "idQuest",
+          "type": "number"
+        },
+        {
+          "name": "text",
+          "type": "string"
+        }
+      ]
+    }
+  }
+}

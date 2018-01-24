@@ -1,0 +1,65 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "pixelsPerUnit": 32,
+  "framesPerSecond": 10,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 64,
+    "height": 64
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "idle",
+      "startFrameIndex": 0,
+      "endFrameIndex": 0,
+      "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "move_up",
+      "startFrameIndex": 12,
+      "endFrameIndex": 15,
+      "speed": 1
+    },
+    {
+      "id": "9",
+      "name": "move_down",
+      "startFrameIndex": 0,
+      "endFrameIndex": 3,
+      "speed": 1
+    },
+    {
+      "id": "10",
+      "name": "move_left",
+      "startFrameIndex": 4,
+      "endFrameIndex": 7,
+      "speed": 1
+    },
+    {
+      "id": "11",
+      "name": "move_right",
+      "startFrameIndex": 8,
+      "endFrameIndex": 11,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "wrapping": "clampToEdge"
+}
