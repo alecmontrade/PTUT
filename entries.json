@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 68,
+  "nextEntryId": 71,
   "nodes": [
     {
       "id": "0",
@@ -196,6 +196,23 @@
       ]
     },
     {
+      "id": "68",
+      "name": "MapVille",
+      "type": null,
+      "children": [
+        {
+          "id": "69",
+          "name": "Tile Map",
+          "type": "tileMap"
+        },
+        {
+          "id": "70",
+          "name": "Tile Set",
+          "type": "tileSet"
+        }
+      ]
+    },
+    {
       "id": "42",
       "name": "Font",
       "type": "font"
@@ -224,11 +241,6 @@
       "id": "60",
       "name": "description",
       "type": "scene"
-    },
-    {
-      "id": "67",
-      "name": "issou",
-      "type": "script"
     }
   ]
 }
