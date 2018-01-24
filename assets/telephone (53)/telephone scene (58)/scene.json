@@ -132,10 +132,10 @@
               "config": {
                 "formatVersion": 2,
                 "fontAssetId": "42",
-                "text": "question1",
+                "text": "Directeur de l’hôtel : Gunner’s Hotel, how can I help you ?\nVous : I would like to _______ a single room with a bath \nin the name of Nabil Fekir.",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 32,
+                "size": 15,
                 "color": "ffffff",
                 "overrideOpacity": false,
                 "opacity": null
@@ -144,8 +144,8 @@
             }
           ],
           "position": {
-            "x": -3.4041748046875,
-            "y": 3.4772236347198486,
+            "x": -3.69192165987009,
+            "y": 3.4772235575461536,
             "z": -43.74494934082031
           },
           "orientation": {
@@ -173,10 +173,10 @@
               "config": {
                 "formatVersion": 2,
                 "fontAssetId": "42",
-                "text": "question2",
+                "text": "Directeur de l’hôtel : Certainly sir. What date?\nVous : The 16th June for two nights.\nDirecteur de l’hôtel : I’m sorry we’re fully _______ on 17th June.",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": null,
+                "size": 15,
                 "color": "ffffff",
                 "overrideOpacity": false,
                 "opacity": null
@@ -188,6 +188,170 @@
             "x": -3.4016120433807373,
             "y": 3.4935719966888428,
             "z": -43.74494934082031
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "22",
+          "name": "Question3",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Vous : That’s all right, I’ll come on 15th June instead, for two nights.\nDirecteur de l’hôtel : Would you like ____ board or half board ?\nVous : Half board please. Could you tell me the price, please?\nDirecteur de l’hôtel : That’s £44.50 per room per night, including a full English breakfast.\nVous : It’s ok for me !",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 13,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.4792057893491446,
+            "y": 3.369371890106663,
+            "z": -44.048489570617676
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "23",
+          "name": "Question4",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Directeur de l’hôtel : All right Mr Fekir. That’s a _______ for a single room \nfor two nights beginning 15 th June.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 15,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.1914581592373423,
+            "y": 3.363185086740316,
+            "z": -44.49344491958618
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "24",
+          "name": "Question5",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Vous : Could you send me a confirmation ?\n I’ll be arriving late, can you _______ the room until 9.30pm.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 16,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.4513589753173406,
+            "y": 3.49313338874947,
+            "z": -44.72213363647461
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "25",
+          "name": "Question6",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Directeur de l’hôtel : Certainly, but for a late check-in we’ll require a ________. \nCould you give me your credit card number?\nVous : It’s 0031 1215 2520 2145\nDirecteur de l’hôtel : Thank you for calling Gunner’s Hotel. \nWe look forward to meeting you.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 16,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.931557104738758,
+            "y": 3.3941254614010177,
+            "z": -44.351762771606445
           },
           "orientation": {
             "x": 0,

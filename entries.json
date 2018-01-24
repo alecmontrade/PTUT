@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 72,
+  "nextEntryId": 73,
   "nodes": [
     {
       "id": "0",
@@ -40,6 +40,11 @@
       "id": "65",
       "name": "TextFieldBehavior",
       "type": "script"
+    },
+    {
+      "id": "72",
+      "name": "Dialogue1",
+      "type": "sound"
     },
     {
       "id": "1",
