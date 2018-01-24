@@ -34,12 +34,6 @@
       "parentBehavior": "UIButtonManagerBehavior",
       "properties": []
     },
-    "ScriptBehavior": {
-      "scriptId": "59",
-      "line": 0,
-      "parentBehavior": null,
-      "properties": []
-    },
     "DescriptionScriptBehavior": {
       "scriptId": "61",
       "line": 0,
