@@ -1,4 +1,4 @@
-class ScriptBehavior extends Sup.Behavior {
+class issou extends Sup.Behavior {
   awake() {
     
   }
@@ -7,4 +7,4 @@ class ScriptBehavior extends Sup.Behavior {
     
   }
 }
-Sup.registerBehavior(ScriptBehavior);
+Sup.registerBehavior(issou);
