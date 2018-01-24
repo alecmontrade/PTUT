@@ -141,7 +141,7 @@
         {
           "type": "Behavior",
           "config": {
-            "behaviorName": "PlayerMoveBehavior",
+            "behaviorName": "AeroportBehavior",
             "propertyValues": {}
           },
           "id": "2"
@@ -170,8 +170,8 @@
         }
       ],
       "position": {
-        "x": 5.585999965667725,
-        "y": 0.3529999852180481,
+        "x": 12.364602088928223,
+        "y": -4.194669246673584,
         "z": 4.213881015777588
       },
       "orientation": {
@@ -192,29 +192,55 @@
     {
       "id": "8",
       "name": "Acteurs",
-      "children": [],
-      "components": [
+      "children": [
         {
-          "type": "SpriteRenderer",
-          "config": {
-            "formatVersion": 1,
-            "spriteAssetId": "29",
-            "animationId": "0",
-            "horizontalFlip": false,
-            "verticalFlip": false,
-            "castShadow": false,
-            "receiveShadow": false,
-            "color": "ffffff",
-            "overrideOpacity": false,
-            "opacity": null,
-            "materialType": "basic",
-            "shaderAssetId": null
+          "id": "12",
+          "name": "Hotesse",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "formatVersion": 1,
+                "spriteAssetId": "73",
+                "animationId": "0",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 21.44844913482666,
+            "y": 7.463155508041382,
+            "z": -10.747851371765137
           },
-          "id": "0"
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
         }
       ],
+      "components": [],
       "position": {
-        "x": -5.802542209625244,
+        "x": 2.0533900260925293,
         "y": -1.2379053831100464,
         "z": 12.527021408081055
       },
@@ -227,6 +253,158 @@
       "scale": {
         "x": 0.5,
         "y": 0.5,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "9",
+      "name": "dialogue",
+      "children": [
+        {
+          "id": "10",
+          "name": "fond_texte",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "formatVersion": 1,
+                "spriteAssetId": "46",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 1.4745750427246094,
+            "y": -1.2441749572753906,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2.5,
+            "y": 0.2,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "11",
+          "name": "txt1",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Dirigez vous ves l'accueil",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.04529380798339844,
+            "y": -0.9811077117919922,
+            "z": 0.2496800422668457
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "13",
+          "name": "proposition",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": null,
+                "text": "Text",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -1.7129297256469727,
+            "y": -13.213951766490936,
+            "z": 2.8437232971191406
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 10.580587387084961,
+        "y": 12.666631698608398,
+        "z": 6.940450668334961
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
         "z": 1
       },
       "visible": true,

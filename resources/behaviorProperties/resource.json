@@ -93,6 +93,17 @@
           "type": "string"
         }
       ]
+    },
+    "AeroportBehavior": {
+      "scriptId": "72",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
     }
   }
 }
