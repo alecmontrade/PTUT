@@ -132,10 +132,10 @@
               "config": {
                 "formatVersion": 2,
                 "fontAssetId": "42",
-                "text": "question1",
+                "text": "Hotel Manager :  Gunner’s Hotel, how can I help you ?\nYou : I would like to _______ a single room with a bath in the name of Nabil Fekir.",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 32,
+                "size": 50,
                 "color": "ffffff",
                 "overrideOpacity": false,
                 "opacity": null
@@ -144,8 +144,8 @@
             }
           ],
           "position": {
-            "x": -3.4041748046875,
-            "y": 3.4772236347198486,
+            "x": -2.8761858384719172,
+            "y": 3.4772235575461536,
             "z": -43.74494934082031
           },
           "orientation": {
@@ -173,10 +173,10 @@
               "config": {
                 "formatVersion": 2,
                 "fontAssetId": "42",
-                "text": "question2",
+                "text": "Hotel Manager : Certainly sir. What date?\nYou : The 16th June for two nights.\nHotel Manager :  I’m sorry we’re fully _______ on 17th June.",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": null,
+                "size": 50,
                 "color": "ffffff",
                 "overrideOpacity": false,
                 "opacity": null
@@ -185,9 +185,173 @@
             }
           ],
           "position": {
-            "x": -3.4016120433807373,
-            "y": 3.4935719966888428,
+            "x": -3.3776124111154324,
+            "y": 3.493572078948091,
             "z": -43.74494934082031
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "21",
+          "name": "Question3",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "You : That’s all right, I’ll come on 15th June instead, for two nights.\nHotel Manager :  Would you like ____ board or half board ?\nYou : Half board please. Could you tell me the price, please?\nHotel Manager :  That’s £44.50 per room per night, including a full English breakfast.\nYou : It’s ok for me !",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 50,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.4248770282187095,
+            "y": 3.4227878259433737,
+            "z": -43.37040328979492
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "22",
+          "name": "Question4",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Hotel Manager :  All right Mr Fekir. That’s a _______ for a single room for two nights beginning\n15 th June.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 45,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.112478585223208,
+            "y": 3.4596912083908364,
+            "z": -43.480594635009766
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "23",
+          "name": "Question5",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "You : Could you send me a confirmation ? \nI’ll be arriving late, can you _______ the room until 9.30pm.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 50,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.995461968252412,
+            "y": 3.5010043810087836,
+            "z": -43.050716400146484
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "24",
+          "name": "Question6",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Hotel Manager : Certainly, but for a late check-in we’ll require a ________. Could you give me\nyour credit card number?\nYou : It’s 0031 1215 2520 2145\nHotel Manager :  Thank you for calling Gunner’s Hotel. We look forward to meeting you.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 40,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.510159594923536,
+            "y": 3.421630701071649,
+            "z": -43.06181335449219
           },
           "orientation": {
             "x": 0,
@@ -236,10 +400,10 @@
           "config": {
             "formatVersion": 2,
             "fontAssetId": "42",
-            "text": "faux",
+            "text": "Wrong Answer",
             "alignment": "center",
             "verticalAlignment": "center",
-            "size": null,
+            "size": 100,
             "color": null,
             "overrideOpacity": false,
             "opacity": null
@@ -248,7 +412,7 @@
         }
       ],
       "position": {
-        "x": -2.00628662109375,
+        "x": -1.5742961168289185,
         "y": 23.361690521240234,
         "z": 7.184694290161133
       },
@@ -375,7 +539,7 @@
                 "text": "6",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -416,7 +580,7 @@
                 "text": "0",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": true,
                 "opacity": null
@@ -457,7 +621,7 @@
                 "text": "4",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -498,7 +662,7 @@
                 "text": "8",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 97,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -539,7 +703,7 @@
                 "text": "6",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -580,7 +744,7 @@
                 "text": "5",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -621,7 +785,7 @@
                 "text": "7",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -662,7 +826,7 @@
                 "text": "2",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -703,7 +867,7 @@
                 "text": "6",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -744,7 +908,7 @@
                 "text": "0",
                 "alignment": "center",
                 "verticalAlignment": "center",
-                "size": 100,
+                "size": 200,
                 "color": "000000",
                 "overrideOpacity": false,
                 "opacity": null
@@ -788,6 +952,50 @@
       "scale": {
         "x": 2,
         "y": 2,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "25",
+      "name": "Appelencours",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "formatVersion": 1,
+            "spriteAssetId": null,
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -2.5990216732025146,
+        "y": 32.06466293334961,
+        "z": 17.064189910888672
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
         "z": 1
       },
       "visible": true,

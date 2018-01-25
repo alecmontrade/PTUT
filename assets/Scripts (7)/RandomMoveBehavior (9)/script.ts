@@ -1,11 +1,12 @@
 class RandomMoveBehavior extends Sup.Behavior {
-  speed=0.1;
+  speed=0.05;
   
   update() {
+    Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, Sup.ArcadePhysics2D.getAllBodies());
      let x=0,y=0,key="down",rand=0,sleep=0,i=0;
     
-    rand=Sup.Math.Random.integer(1,4);
-    sleep=Sup.Math.Random.integer(1,10);
+    rand=Sup.Math.Random.integer(1,10);
+    sleep=Sup.Math.Random.integer(1,60);
     if(sleep==5){
       if(rand==1){
         key="up";
@@ -23,20 +24,38 @@ class RandomMoveBehavior extends Sup.Behavior {
       if(rand==4){
         key="left";
         x=-this.speed
-      }this.move(x,y,key);
-      
+      }
+      else{
+        
+      }
+      for(let i=0;i<2;i++){
+        if( this.actor.arcadeBody2D.getTouches().top==false && this.actor.arcadeBody2D.getTouches().left==false && this.actor.arcadeBody2D.getTouches().right==false && this.actor.arcadeBody2D.getTouches().bottom==false){
+          this.move(x,y,key);
+        }
+      }
       
   }
     
     
     
+  }
+  getCollision(x,y){
+    Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D,Sup.ArcadePhysics2D.getAllBodies());
+    this.actor.arcadeBody2D.setVelocity(new Sup.Math.Vector2(x,y));
   }
   
   move(x,y,key){
-    let i=0;
-    if(x!=0 || y!=0){
+    
+    
+    if((x!=0 || y!=0) && this.actor.arcadeBody2D.getTouches().top==false && this.actor.arcadeBody2D.getTouches().left==false && this.actor.arcadeBody2D.getTouches().right==false && this.actor.arcadeBody2D.getTouches().bottom==false){
+      Sup.log("je bouge");
       this.actor.spriteRenderer.setAnimation("move_"+key);
-      for(i=0;i<10;i++){this.actor.move(x,y,0);}
+      
+      this.getCollision(x,y);
+    }
+    else{
+      this.actor.spriteRenderer.setAnimation("idle");
+      this.getCollision(0,0);
     }
   
 

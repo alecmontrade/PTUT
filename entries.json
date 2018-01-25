@@ -1,26 +1,6 @@
 {
-  "nextEntryId": 71,
+  "nextEntryId": 84,
   "nodes": [
-    {
-      "id": "0",
-      "name": "Scene",
-      "type": "scene"
-    },
-    {
-      "id": "4",
-      "name": "Tile Set",
-      "type": "tileSet"
-    },
-    {
-      "id": "23",
-      "name": "Tile Set (1)",
-      "type": "tileSet"
-    },
-    {
-      "id": "6",
-      "name": "Map",
-      "type": "tileMap"
-    },
     {
       "id": "29",
       "name": "sprite test",
@@ -32,18 +12,38 @@
       "type": "sprite"
     },
     {
-      "id": "44",
-      "name": "UIButtonManager",
-      "type": "script"
+      "id": "71",
+      "name": "Dialogue1",
+      "type": "sound"
     },
     {
-      "id": "65",
-      "name": "TextFieldBehavior",
-      "type": "script"
+      "id": "72",
+      "name": "Dialogue2",
+      "type": "sound"
+    },
+    {
+      "id": "73",
+      "name": "Dialogue3",
+      "type": "sound"
+    },
+    {
+      "id": "74",
+      "name": "Dialogue4",
+      "type": "sound"
+    },
+    {
+      "id": "75",
+      "name": "Dialogue5",
+      "type": "sound"
+    },
+    {
+      "id": "76",
+      "name": "Dialogue6",
+      "type": "sound"
     },
     {
       "id": "1",
-      "name": "hero",
+      "name": "NabilFekir",
       "type": null,
       "children": [
         {
@@ -55,7 +55,7 @@
     },
     {
       "id": "53",
-      "name": "telephone",
+      "name": "Téléphone",
       "type": null,
       "children": [
         {
@@ -72,6 +72,11 @@
           "id": "58",
           "name": "telephone scene",
           "type": "scene"
+        },
+        {
+          "id": "77",
+          "name": "appelencours",
+          "type": "sprite"
         }
       ]
     },
@@ -104,6 +109,21 @@
           "id": "64",
           "name": "TelephoneBehavior",
           "type": "script"
+        },
+        {
+          "id": "78",
+          "name": "AeroportBehavior",
+          "type": "script"
+        },
+        {
+          "id": "65",
+          "name": "TextFieldBehavior",
+          "type": "script"
+        },
+        {
+          "id": "44",
+          "name": "UIButtonManager",
+          "type": "script"
         }
       ]
     },
@@ -131,7 +151,7 @@
     },
     {
       "id": "18",
-      "name": "Map aeroport",
+      "name": "MapAéroport",
       "type": null,
       "children": [
         {
@@ -148,6 +168,11 @@
           "id": "28",
           "name": "Tile Map",
           "type": "tileMap"
+        },
+        {
+          "id": "79",
+          "name": "hotesse",
+          "type": "sprite"
         }
       ]
     },
@@ -175,7 +200,7 @@
     },
     {
       "id": "32",
-      "name": "Map restaurant",
+      "name": "MapRestaurant",
       "type": null,
       "children": [
         {
@@ -192,6 +217,23 @@
           "id": "41",
           "name": "MapRestaurant",
           "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "MenuPrincipal",
+      "type": null,
+      "children": [
+        {
+          "id": "43",
+          "name": "MainMenu",
+          "type": "scene"
+        },
+        {
+          "id": "45",
+          "name": "UIMainMenu",
+          "type": "script"
         }
       ]
     },
@@ -213,34 +255,38 @@
       ]
     },
     {
+      "id": "82",
+      "name": "DescriptionJeu",
+      "type": null,
+      "children": [
+        {
+          "id": "61",
+          "name": "description script",
+          "type": "script"
+        },
+        {
+          "id": "60",
+          "name": "description",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "QCM",
+      "type": null,
+      "children": [
+        {
+          "id": "63",
+          "name": "scriptQCM",
+          "type": "script"
+        }
+      ]
+    },
+    {
       "id": "42",
       "name": "Font",
       "type": "font"
-    },
-    {
-      "id": "43",
-      "name": "MainMenu",
-      "type": "scene"
-    },
-    {
-      "id": "45",
-      "name": "UIMainMenu",
-      "type": "script"
-    },
-    {
-      "id": "63",
-      "name": "QCM",
-      "type": "script"
-    },
-    {
-      "id": "61",
-      "name": "description script",
-      "type": "script"
-    },
-    {
-      "id": "60",
-      "name": "description",
-      "type": "scene"
     }
   ]
 }

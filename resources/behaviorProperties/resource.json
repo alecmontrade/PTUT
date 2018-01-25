@@ -76,6 +76,14 @@
         {
           "name": "idNum",
           "type": "number"
+        },
+        {
+          "name": "appel",
+          "type": "boolean"
+        },
+        {
+          "name": "i",
+          "type": "number"
         }
       ]
     },
@@ -91,6 +99,45 @@
         {
           "name": "text",
           "type": "string"
+        },
+        {
+          "name": "i",
+          "type": "number"
+        },
+        {
+          "name": "bonjour",
+          "type": "string"
+        }
+      ]
+    },
+    "AeroportBehavior": {
+      "scriptId": "78",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "idTxt",
+          "type": "number"
+        },
+        {
+          "name": "maxTxt",
+          "type": "number"
+        },
+        {
+          "name": "chronometre",
+          "type": "number"
+        },
+        {
+          "name": "vueHotesse",
+          "type": "number"
+        },
+        {
+          "name": "vueBagages",
+          "type": "number"
         }
       ]
     }
