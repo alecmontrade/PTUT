@@ -1,9 +1,14 @@
 {
-  "nextEntryId": 84,
+  "nextEntryId": 90,
   "nodes": [
     {
       "id": "29",
       "name": "sprite test",
+      "type": "sprite"
+    },
+    {
+      "id": "87",
+      "name": "compteur",
       "type": "sprite"
     },
     {
@@ -77,6 +82,11 @@
           "id": "77",
           "name": "appelencours",
           "type": "sprite"
+        },
+        {
+          "id": "89",
+          "name": "finappel",
+          "type": "sprite"
         }
       ]
     },
@@ -123,6 +133,11 @@
         {
           "id": "44",
           "name": "UIButtonManager",
+          "type": "script"
+        },
+        {
+          "id": "86",
+          "name": "VilleBehavior",
           "type": "script"
         }
       ]
@@ -251,6 +266,11 @@
           "id": "70",
           "name": "Tile Set",
           "type": "tileSet"
+        },
+        {
+          "id": "85",
+          "name": "MapVille",
+          "type": "scene"
         }
       ]
     },

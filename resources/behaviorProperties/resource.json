@@ -138,6 +138,29 @@
         {
           "name": "vueBagages",
           "type": "number"
+        },
+        {
+          "name": "dixsecondes",
+          "type": "number"
+        },
+        {
+          "name": "secondes",
+          "type": "number"
+        },
+        {
+          "name": "minutes",
+          "type": "number"
+        }
+      ]
+    },
+    "VilleBehavior": {
+      "scriptId": "86",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
         }
       ]
     }

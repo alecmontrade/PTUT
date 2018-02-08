@@ -62,6 +62,9 @@ class TextFieldBehavior extends Sup.Behavior {
     Sup.getActor("Question"+this.idQuest).setVisible(true);
     
     if(Sup.Input.wasKeyJustPressed("RETURN",{autoRepeat: false})){
+      if(this.idQuest==6){
+        Sup.getActor("finAppel").setVisible(true);
+      }
           
       
       //question 1
