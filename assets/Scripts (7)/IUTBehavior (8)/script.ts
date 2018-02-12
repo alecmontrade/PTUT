@@ -42,22 +42,23 @@ class IUTBehavior extends Sup.Behavior {
     
    for (let personnages of this.actors){ 
      if(this.actor.getX()>=(personnages.getX())-0.5 && this.actor.getX()<=(personnages.getX())+0.5 && this.actor.getY()>=(personnages.getY())-0.5 && this.actor.getY()<=(personnages.getY())+0.5){
-        if(Sup.Input.isKeyDown("SPACE")){
+        
          
           Sup.getActor("fond_texte").setVisible(true);
           Sup.getActor("text").setVisible(true);
           Sup.getActor("text2").setVisible(true);
           
             
-        }
-       
+        
+         
       }
      if(Sup.getActor("fond_texte").getVisible()){
-         if(Sup.Input.isKeyDown("O")){
-           Sup.log("autre map");  
-           Sup.loadScene("MapBanque/MapBanque2.0");
-          }
-       }
+               if(Sup.Input.isKeyDown("O")){
+                 Sup.log("autre map");  
+                 Sup.loadScene("Téléphone/telephone scene");
+                }
+            }
+     
    };
     
     
