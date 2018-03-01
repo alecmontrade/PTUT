@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 90,
+  "nextEntryId": 104,
   "nodes": [
     {
       "id": "29",
@@ -9,6 +9,11 @@
     {
       "id": "87",
       "name": "compteur",
+      "type": "sprite"
+    },
+    {
+      "id": "90",
+      "name": "securite",
       "type": "sprite"
     },
     {
@@ -139,6 +144,11 @@
           "id": "86",
           "name": "VilleBehavior",
           "type": "script"
+        },
+        {
+          "id": "99",
+          "name": "Ville1Behavior",
+          "type": "script"
         }
       ]
     },
@@ -160,6 +170,23 @@
         {
           "id": "17",
           "name": "MapIUT2.0",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Perdu",
+      "type": null,
+      "children": [
+        {
+          "id": "98",
+          "name": "RecommencerAeroport",
+          "type": "script"
+        },
+        {
+          "id": "96",
+          "name": "PerduAeroport",
           "type": "scene"
         }
       ]
@@ -275,6 +302,28 @@
       ]
     },
     {
+      "id": "100",
+      "name": "MapClasse",
+      "type": null,
+      "children": [
+        {
+          "id": "101",
+          "name": "Tile Set",
+          "type": "tileSet"
+        },
+        {
+          "id": "102",
+          "name": "Tile Map",
+          "type": "tileMap"
+        },
+        {
+          "id": "103",
+          "name": "MapClasse",
+          "type": "scene"
+        }
+      ]
+    },
+    {
       "id": "82",
       "name": "DescriptionJeu",
       "type": null,
@@ -287,6 +336,23 @@
         {
           "id": "60",
           "name": "description",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "TransitionAeroport",
+      "type": null,
+      "children": [
+        {
+          "id": "94",
+          "name": "FinAeroport",
+          "type": "script"
+        },
+        {
+          "id": "91",
+          "name": "Transition_Aeroport",
           "type": "scene"
         }
       ]

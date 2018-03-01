@@ -96,8 +96,8 @@
         }
       ],
       "position": {
-        "x": -7.508024215698242,
-        "y": -6.217457294464111,
+        "x": -7.508,
+        "y": -6,
         "z": 0
       },
       "orientation": {
@@ -280,6 +280,50 @@
           "visible": true,
           "layer": 0,
           "prefab": null
+        },
+        {
+          "id": "87",
+          "name": "Securite",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "formatVersion": 1,
+                "spriteAssetId": "90",
+                "animationId": "0",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -1.5267267227172852,
+            "y": 46.80341196060181,
+            "z": -14.560956954956055
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.6,
+            "y": 0.6,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
         }
       ],
       "components": [],
@@ -393,88 +437,6 @@
           "prefab": null
         },
         {
-          "id": "13",
-          "name": "txt1",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "42",
-                "text": "Bonjour, comment puis-je vous aider?",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": null,
-                "color": "000000",
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        },
-        {
-          "id": "14",
-          "name": "txt2",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "42",
-                "text": "Vous devez aller déposer vos bagages!",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": null,
-                "color": "000000",
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0.2403855323791504
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        },
-        {
           "id": "15",
           "name": "proposition",
           "children": [],
@@ -511,7 +473,212 @@
             "y": 1,
             "z": 1
           },
-          "visible": true,
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "78",
+          "name": "DialogueHotesse1",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": " Good morning, for the London flight at 10:30, \nyou’ll have a 2 hour stopover in Amsterdam. \nYou’re very late!!! 7\nYou have less than 1 minute to check-in at desk C! \nAnd make sure you have your passport and \nreservation ready.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.0261383056640625,
+            "y": 0.060990333557128906,
+            "z": 1.057133674621582
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "88",
+          "name": "DialogueHotesse2",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Goodbye.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.0261383056640625,
+            "y": 0.060990333557128906,
+            "z": 1.057133674621582
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "85",
+          "name": "DialogueBagagiste1",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Hello there. Passport and reservation please.",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.12290096282958984,
+            "y": 0.07348060607910156,
+            "z": 1.8757028579711914
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "84",
+          "name": "DialogueBagagiste2",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Thank you Sir.\n Let me check everything… \nOh! You’re very late!\n Put your big luggage on the scales \nin order to process to the check-in. \nYour flight to London will take off soon!!\nGo at boarding gate n°03. Run!\n",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0.12290096282958984,
+            "y": -0.1291344165802002,
+            "z": 1.1526374816894531
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "86",
+          "name": "DialogueSecurite1",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "Good afternoon, \nCould you open your baggage, please ? \nDo you have anything to declare ?\n If not, you can go.\n Thank you very much and have a nice day.\n",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.12290096282958984,
+            "y": 0.046054840087890625,
+            "z": 1.0723567008972168
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": false,
           "layer": 0,
           "prefab": null
         }
@@ -1175,7 +1342,7 @@
               ],
               "position": {
                 "x": -1.0181045532226562,
-                "y": 1.5424461364746094,
+                "y": 1.5424460172653198,
                 "z": 3.261810302734375
               },
               "orientation": {
@@ -1919,7 +2086,7 @@
           ],
           "components": [],
           "position": {
-            "x": 4.890108108520508,
+            "x": 1.967503547668457,
             "y": -10.234260559082031,
             "z": -10.50106430053711
           },
@@ -1985,6 +2152,878 @@
         "x": 8.633061408996582,
         "y": 10.428972244262695,
         "z": 16.465576171875
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "55",
+      "name": "numeros comptoirs ",
+      "children": [
+        {
+          "id": "56",
+          "name": "1",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "1",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": -1.876621127128601,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "57",
+          "name": "2",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "2",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 2.101118952035904,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "58",
+          "name": "3",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "3",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 6.099411606788635,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "59",
+          "name": "4",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "4",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 10.10721743106842,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "60",
+          "name": "5",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "5",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 14.110226273536682,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "61",
+          "name": "6",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "6",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 18.103777527809143,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "62",
+          "name": "7",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "7",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 22.10167372226715,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "63",
+          "name": "8",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "8",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 26.10016119480133,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "64",
+          "name": "9",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "9",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9723808765411377,
+            "y": 30.101025223731995,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "65",
+          "name": "10",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "10",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.9882514476776123,
+            "y": 34.090736985206604,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": -1.0490000247955322,
+        "y": -1.4078922271728516,
+        "z": 3.2461509704589844
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "66",
+      "name": "lettres des portes ",
+      "children": [
+        {
+          "id": "67",
+          "name": "A",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "A",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -2.1678487062454224,
+            "y": -2.2328567504882812,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "68",
+          "name": "B",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "B",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.879,
+            "y": -2.233,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "69",
+          "name": "C",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "C",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 3.78,
+            "y": -2.233,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "70",
+          "name": "D",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "D\n",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 6.795999884605408,
+            "y": -2.731006622314453,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "71",
+          "name": "E",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "E",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 9.782,
+            "y": -2.233,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "72",
+          "name": "F",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "F",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 12.797,
+            "y": -2.233,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "73",
+          "name": "G",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "G",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 15.890892386436462,
+            "y": -2.233001708984375,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "74",
+          "name": "H",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "H\n",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 18.813000082969666,
+            "y": -2.759471893310547,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "75",
+          "name": "I",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "I",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 21.7949241399765,
+            "y": -2.233001708984375,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "76",
+          "name": "J",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "42",
+                "text": "J",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 24.836113333702087,
+            "y": -2.233001708984375,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": -0.3203529119491577,
+        "y": 43.514835357666016,
+        "z": 4.0658488273620605
       },
       "orientation": {
         "x": 0,

@@ -63,7 +63,7 @@
           "type": "TileMapRenderer",
           "config": {
             "formatVersion": 1,
-            "tileMapAssetId": "69",
+            "tileMapAssetId": "102",
             "tileSetAssetId": null,
             "castShadow": false,
             "receiveShadow": false,
@@ -88,7 +88,7 @@
               "x": 0,
               "y": 0
             },
-            "tileMapAssetId": "69",
+            "tileMapAssetId": "102",
             "tileSetPropertyName": null,
             "layersIndex": "0"
           },
@@ -170,8 +170,8 @@
         }
       ],
       "position": {
-        "x": -2.8793466091156006,
-        "y": 8.2614164352417,
+        "x": -2.3898978233337402,
+        "y": -4.943115234375,
         "z": 3.086660385131836
       },
       "orientation": {
@@ -218,9 +218,9 @@
             }
           ],
           "position": {
-            "x": -1.4502582550048828,
-            "y": 14.094051837921143,
-            "z": -13.647256135940552
+            "x": -7.584682464599609,
+            "y": 11.31587028503418,
+            "z": -13.647255897521973
           },
           "orientation": {
             "x": 0,

@@ -120,12 +120,32 @@
           "type": "number"
         },
         {
-          "name": "idTxt",
+          "name": "idTxtHotesse",
           "type": "number"
         },
         {
-          "name": "maxTxt",
+          "name": "idTxtBagages",
           "type": "number"
+        },
+        {
+          "name": "idTxtSecurite",
+          "type": "number"
+        },
+        {
+          "name": "maxTxtSecurite",
+          "type": "number"
+        },
+        {
+          "name": "maxTxtHotesse",
+          "type": "number"
+        },
+        {
+          "name": "maxTxtBagages",
+          "type": "number"
+        },
+        {
+          "name": "compteurVisuble",
+          "type": "boolean"
         },
         {
           "name": "chronometre",
@@ -137,6 +157,10 @@
         },
         {
           "name": "vueBagages",
+          "type": "number"
+        },
+        {
+          "name": "vueSecurite",
           "type": "number"
         },
         {
@@ -161,8 +185,34 @@
         {
           "name": "speed",
           "type": "number"
+        },
+        {
+          "name": "idTxtPassant",
+          "type": "number"
+        },
+        {
+          "name": "maxTxtPassant",
+          "type": "number"
         }
       ]
+    },
+    "FinAeroportBehavior": {
+      "scriptId": "94",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "RecommencerAeroportBehavior": {
+      "scriptId": "98",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "Ville1BehaviorBehavior": {
+      "scriptId": "99",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

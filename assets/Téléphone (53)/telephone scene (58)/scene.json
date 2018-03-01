@@ -1045,6 +1045,47 @@
       "visible": false,
       "layer": 0,
       "prefab": null
+    },
+    {
+      "id": "27",
+      "name": "passer",
+      "children": [],
+      "components": [
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "42",
+            "text": "Press O to continue",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": null,
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -1.675176978111267,
+        "y": 19.730117797851562,
+        "z": -5.056174278259277
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 1
+      },
+      "visible": false,
+      "layer": 0,
+      "prefab": null
     }
   ]
 }

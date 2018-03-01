@@ -1,17 +1,28 @@
 class AeroportBehavior extends Sup.Behavior {
 speed=0.05;
-idTxt=1;
-maxTxt=2;
+idTxtHotesse=1;
+idTxtBagages=1;
+idTxtSecurite=1;
+maxTxtSecurite=1;
 
+maxTxtHotesse=2;
+maxTxtBagages=2;
+
+compteurVisuble=false;
 chronometre=0;
 vueHotesse=0;
 vueBagages=0;
-  dixsecondes=0;
+vueSecurite=0;
+dixsecondes=0;
 secondes=0;
 minutes=0;
   
   awake() {
-   
+   Sup.getActor("Cadre").setVisible(false);
+    Sup.getActor("NumerosM1").setVisible(false);
+    Sup.getActor("NumerosM2").setVisible(false);
+    Sup.getActor("2point").setVisible(false);
+    Sup.getActor("NumerosM").setVisible(false);
   }
   
   
@@ -23,6 +34,8 @@ minutes=0;
     Sup.getActor("NumerosM2").setLocalPosition(new Sup.Math.Vector2(Sup.getActor("Hero").getX()-11.4,Sup.getActor("Hero").getY()-15.75));
     Sup.getActor("2point").setLocalPosition(new Sup.Math.Vector2(Sup.getActor("Hero").getX()-14.4,Sup.getActor("Hero").getY()-14));
     Sup.getActor("NumerosM").setLocalPosition(new Sup.Math.Vector2(Sup.getActor("Hero").getX()-14.4,Sup.getActor("Hero").getY()-15.75));
+    
+    
     
     
     this.chronometre++;
@@ -56,22 +69,39 @@ minutes=0;
        Sup.getActor("txt0").setVisible(false);
        Sup.getActor("dialogue").setVisible(true); 
        Sup.getActor("proposition").setVisible(true);
-       if(this.idTxt!=0 && this.idTxt<=this.maxTxt){
+       if(this.idTxtHotesse!=0 && this.idTxtHotesse<=this.maxTxtHotesse){
          Sup.getActor("fond_texte").setVisible(true);
-         Sup.getActor("txt"+this.idTxt).setVisible(true);
+         Sup.getActor("DialogueHotesse"+this.idTxtHotesse).setVisible(true);
        
       
          if(Sup.Input.wasKeyJustPressed("O",{autoRepeat:false})){
-            Sup.log(this.idTxt);
-            this.idTxt++;
-            Sup.getActor("txt"+(this.idTxt-1)).setVisible(false);
-            if(this.idTxt>this.maxTxt){
-              this.idTxt=1
+            
+            this.idTxtHotesse++;
+            Sup.getActor("DialogueHotesse"+(this.idTxtHotesse-1)).setVisible(false);
+           
+            if(this.idTxtHotesse>this.maxTxtHotesse){
+              if(this.compteurVisuble==false){
+                Sup.getActor("Cadre").setVisible(true);
+                Sup.getActor("NumerosM1").setVisible(true);
+                Sup.getActor("NumerosM2").setVisible(true);
+                Sup.getActor("2point").setVisible(true);
+                Sup.getActor("NumerosM").setVisible(true);
+                Sup.getActor("M2numero"+this.secondes).setVisible(false);
+                Sup.getActor("M1numero"+this.dixsecondes).setVisible(false);
+                Sup.getActor("Mnumero"+this.minutes).setVisible(false);
+                this.secondes=0;
+                this.dixsecondes=0;
+                this.minutes=0;
+                this.compteurVisuble=true;
+              }
+              
+              
+              this.idTxtHotesse=1
             }
 
             
             Sup.getActor("fond_texte").setVisible(true);
-            Sup.getActor("txt"+this.idTxt).setVisible(true);
+            Sup.getActor("DialogueHotesse"+this.idTxtHotesse).setVisible(true);
             
             this.vueHotesse=1;
            
@@ -83,24 +113,86 @@ minutes=0;
      }
      
         else if(this.actor.getX()>=(Sup.getActor("Bagages").getX())-2 && this.actor.getX()<=(Sup.getActor("Bagages").getX())+2 && this.actor.getY()>=(Sup.getActor("Bagages").getY())-2 && this.actor.getY()<=(Sup.getActor("Bagages").getY())+2){
-        Sup.getActor("proposition").setVisible(true);
-       
+          Sup.getActor("dialogue").setVisible(true); 
+          Sup.getActor("proposition").setVisible(true);
+          if(this.idTxtBagages!=0 && this.idTxtBagages<=this.maxTxtBagages){
+           Sup.getActor("fond_texte").setVisible(true);
+           Sup.getActor("DialogueBagagiste"+this.idTxtBagages).setVisible(true);
 
-      
-         if(Sup.Input.wasKeyJustPressed("O",{autoRepeat:false})){
-            
-            this.vueBagages=1;
 
-          }
-       
+           
+           if(Sup.Input.wasKeyJustPressed("O",{autoRepeat:false})){
+               this.idTxtBagages++;
+                Sup.getActor("DialogueBagagiste"+(this.idTxtBagages-1)).setVisible(false);
+               Sup.log(this.idTxtBagages);
+               if(this.idTxtBagages>this.maxTxtBagages){
+                  this.idTxtBagages=1;
+                 
+               }
+             
+
+              
+             
+
+              Sup.getActor("fond_texte").setVisible(true);
+              Sup.getActor("DialogueBagagiste"+this.idTxtBagages).setVisible(true);
+
+              this.vueBagages=1;
+               
+
+            }
+         }
        
       }
+    
+     else if(this.actor.getX()>=(Sup.getActor("Securite").getX())-2 && this.actor.getX()<=(Sup.getActor("Securite").getX())+2 && this.actor.getY()>=(Sup.getActor("Securite").getY())-2 && this.actor.getY()<=(Sup.getActor("Securite").getY())+2){
+          Sup.getActor("dialogue").setVisible(true); 
+          Sup.getActor("proposition").setVisible(true);
+          if(this.idTxtSecurite!=0 && this.idTxtSecurite<=this.maxTxtSecurite){
+           Sup.getActor("fond_texte").setVisible(true);
+           Sup.getActor("DialogueSecurite"+this.idTxtSecurite).setVisible(true);
+
+
+           
+           if(Sup.Input.wasKeyJustPressed("O",{autoRepeat:false})){
+               this.idTxtSecurite++;
+                Sup.getActor("DialogueSecurite"+(this.idTxtSecurite-1)).setVisible(false);
+               Sup.log(this.idTxtSecurite);
+               if(this.idTxtSecurite>this.maxTxtSecurite){
+                  this.idTxtSecurite=1;
+                 
+               }
+             
+
+              
+             
+
+              Sup.getActor("fond_texte").setVisible(true);
+              Sup.getActor("DialogueSecurite"+this.idTxtSecurite).setVisible(true);
+
+              this.vueSecurite=1;
+               
+
+            }
+         }
+       
+      }
+    
+    
      else{
        
        Sup.getActor("proposition").setVisible(false);
       // Sup.getActor("dialogue").setVisible(false);
-       for(let i=1;i<=this.maxTxt;i++){
-         Sup.getActor("txt"+i).setVisible(false);
+       for(let i=1;i<=this.maxTxtHotesse;i++){
+         Sup.getActor("DialogueHotesse"+i).setVisible(false);
+         
+       }
+       for(let i=1;i<=this.maxTxtBagages;i++){
+         Sup.getActor("DialogueBagagiste"+i).setVisible(false);
+         
+       }
+       for(let i=1;i<=this.maxTxtSecurite;i++){
+         Sup.getActor("DialogueSecurite"+i).setVisible(false);
          
        }
        Sup.getActor("fond_texte").setVisible(false);
@@ -108,7 +200,7 @@ minutes=0;
      
     
     
-    Sup.log(this.secondes)
+    //Sup.log(this.secondes)
     if(this.chronometre>60){
       this.secondes++;
       this.chronometre=0;
@@ -179,7 +271,7 @@ minutes=0;
         Sup.getActor("M1numero0").setVisible(true);       
         break;
       case 1:
-        Sup.log("oui")
+        
         Sup.getActor("M1numero0").setVisible(false);
         Sup.getActor("M1numero1").setVisible(true);       
         break;
@@ -260,12 +352,15 @@ minutes=0;
       
        
     
-    
+    if(this.minutes>=1){
+      Sup.loadScene("Perdu/PerduAeroport");
+    }
     
     
       
-   if(this.vueBagages+this.vueHotesse==2){
-     Sup.log("niveau terminé");
+   if(this.vueBagages+this.vueHotesse+this.vueSecurite==3){
+     Sup.log("changement");
+     Sup.loadScene("TransitionAeroport/Transition_Aeroport");
    }
     
   }
@@ -288,4 +383,4 @@ minutes=0;
     }
   }
 }
-Sup.registerBehavior(AeroportBehavior);
+Sup.registerBehavior(AeroportBehavior);​

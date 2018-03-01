@@ -1,0 +1,99 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "description ",
+      "children": [],
+      "components": [
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "42",
+            "text": "You finally managed to catch your flight.\n You arrived in London and you are looking to join your hotel. Try to ask passers-by if they know where Gunner's hotel is.\nappuyez sur o pour continuer \n",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": null,
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0.7831181287765503,
+        "y": -0.32684504985809326,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "1",
+      "name": "Cam",
+      "children": [],
+      "components": [
+        {
+          "type": "Camera",
+          "config": {
+            "formatVersion": 1,
+            "mode": "orthographic",
+            "fov": 45,
+            "orthographicScale": 15,
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 1
+            },
+            "depth": 0,
+            "nearClippingPlane": 0.1,
+            "farClippingPlane": 1000
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "FinAeroportBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 0.7831181287765503,
+        "y": -0.29416054487228394,
+        "z": 0.944440484046936
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}
